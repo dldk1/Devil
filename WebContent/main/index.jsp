@@ -3,6 +3,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 
+<% String path= request.getContextPath(); %>
 <head>
   <meta charset="utf-8">
   <title>악의 무리 3조</title>
@@ -25,20 +26,20 @@
   <meta name="twitter:image" content="">
 
   <!-- Place your favicon.ico and apple-touch-icon.png in the template root directory -->
-  <link href="favicon.ico" rel="shortcut icon">
+  <link href="<%=path %>/main/favicon.ico" rel="shortcut icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="<%=path %>/main/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate-css/animate.min.css" rel="stylesheet">
+  <link href="<%=path %>/main/lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="<%=path %>/main/lib/animate-css/animate.min.css" rel="stylesheet">
 
   <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
+  <link href="<%=path %>/main/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
     Theme Name: Imperial
@@ -58,7 +59,7 @@
     <div class="hero-container">
       <div class="wow fadeIn">
         <div class="hero-logo">
-          <img class="" src="img/logo.png" alt="devil">
+          <img class="" src="<%=path %>/main/img/logo.png" alt="devil">
         </div>
 
         <h1>악의 무리</h1>
@@ -78,7 +79,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="#hero"><img src="img/logo.png" alt="" title="" /></img></a>
+        <a href="#hero"><img src="<%=path %>/main/img/logo.png" alt="" title="" /></img></a>
         <!-- Uncomment below if you prefer to use a text image -->
         <!--<h1><a href="#hero">Header 1</a></h1>-->
       </div>
@@ -108,6 +109,8 @@
             </ul>
           </li>
           <li><a href="#contact">멤버 모집</a></li>
+         <li><a href="<%=path %>/login/login.jsp">login</a></li>
+          <li><a href="<%=path %>/signUp/join_us.jsp">회원가입</a></li>
         </ul>
       </nav>
       <!-- #nav-menu-container -->
@@ -132,7 +135,7 @@
       <div class="row">
 
         <div class="col-lg-6 about-img">
-          <img src="img/about-img.jpg" alt="">
+          <img src="<%=path %>/main/img/about-img.jpg" alt="">
         </div>
 
         <div class="col-md-6 about-content">
@@ -167,7 +170,7 @@
           <p class="subscribe-text">아무나 와라 기선이의 핵주먹 맛을 버틸놈만!</p>
         </div>
         <div class="col-md-4 subscribe-btn-container">
-          <a class="subscribe-btn" href="#">즉시가입!</a>
+          <a class="subscribe-btn" href="<%=path %>/signUp/join_us.jsp">즉시가입!</a>
         </div>
       </div>
     </div>
@@ -279,14 +282,14 @@
       <div class="row">
         <div class="col-md-3">
           <div class="profile">
-            <div class="pic"><img src="img/client-1.jpg" alt=""></div>
+            <div class="pic"><img src="<%=path %>/main/img/client-1.jpg" alt=""></div>
             <h4>김민재</h4>
             <span>악의 리더</span>
           </div>
         </div>
         <div class="col-md-9">
           <div class="quote">
-            <b><img src="img/quote_sign_left.png" alt=""></b> 악의 중심! 악의 리더! 악마 자체<small><img src="img/quote_sign_right.png" alt=""></small>
+            <b><img src="<%=path %>/main/img/quote_sign_left.png" alt=""></b> 악의 중심! 악의 리더! 악마 자체<small><img src="<%=path %>/main/img/quote_sign_right.png" alt=""></small>
           </div>
         </div>
       </div>
@@ -294,12 +297,12 @@
       <div class="row">
         <div class="col-md-9">
           <div class="quote">
-            <b><img src="img/quote_sign_left.png" alt=""></b> 누구든 날 건들면 기선이 핵 주먹 맛을 볼 줄 알아라. 띠드버거 사주면 봐줌. <small><img src="img/quote_sign_right.png" alt=""></small>
+            <b><img src="<%=path %>/main/img/quote_sign_left.png" alt=""></b> 누구든 날 건들면 기선이 핵 주먹 맛을 볼 줄 알아라. 띠드버거 사주면 봐줌. <small><img src="<%=path %>/main/img/quote_sign_right.png" alt=""></small>
           </div>
         </div>
         <div class="col-md-3">
           <div class="profile">
-            <div class="pic"><img src="img/client-2.jpg" alt=""></div>
+            <div class="pic"><img src="<%=path %>/main/img/client-2.jpg" alt=""></div>
             <h4>권기선</h4>
             <span>숨겨지지 않는 악마본능</span>
           </div>
@@ -325,7 +328,7 @@
       <div class="row">
         <div class="col-md-3">
           <div class="member">
-            <div class="pic"><img src="img/team-1.jpg" alt=""></div>
+            <div class="pic"><img src="<%=path %>/main/img/team-1.jpg" alt=""></div>
             <h4>손보경</h4>
             <span>카트할 땐 민재 그 이상의 악마</span>
             <div class="social">
@@ -339,7 +342,7 @@
 
         <div class="col-md-3">
           <div class="member">
-            <div class="pic"><img src="img/team-2.jpg" alt=""></div>
+            <div class="pic"><img src="<%=path %>/main/img/team-2.jpg" alt=""></div>
             <h4>김경인</h4>
             <span>엘리트 옆에서 보경이가 카트하면 "공부 좀 해요!" 라고 한다.</span>
             <div class="social">
@@ -353,7 +356,7 @@
 
         <div class="col-md-3">
           <div class="member">
-            <div class="pic"><img src="img/team-3.jpg" alt=""></div>
+            <div class="pic"><img src="<%=path %>/main/img/team-3.jpg" alt=""></div>
             <h4>박찬호</h4>
             <span>착함 그 자체 여기서 유일하게 순수하고 착한 인물</span>
             <div class="social">
@@ -367,7 +370,7 @@
 
         <div class="col-md-3">
           <div class="member">
-            <div class="pic"><img src="img/team-4.jpg" alt=""></div>
+            <div class="pic"><img src="<%=path %>/main/img/team-4.jpg" alt=""></div>
             <h4>멤버모집</h4>
             <span>나는 좀 사악하다 하시는 분 연락바람</span>
             <div class="social">
@@ -475,19 +478,19 @@
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
   <!-- Required JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-  <script src="lib/superfish/hoverIntent.js"></script>
-  <script src="lib/superfish/superfish.min.js"></script>
-  <script src="lib/morphext/morphext.min.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/stickyjs/sticky.js"></script>
-  <script src="lib/easing/easing.js"></script>
+  <script src="<%=path %>/main/lib/jquery/jquery.min.js"></script>
+  <script src="<%=path %>/main/lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="<%=path %>/main/lib/superfish/hoverIntent.js"></script>
+  <script src="<%=path %>/main/lib/superfish/superfish.min.js"></script>
+  <script src="<%=path %>/main/lib/morphext/morphext.min.js"></script>
+  <script src="<%=path %>/main/lib/wow/wow.min.js"></script>
+  <script src="<%=path %>/main/lib/stickyjs/sticky.js"></script>
+  <script src="<%=path %>/main/lib/easing/easing.js"></script>
 
   <!-- Template Specisifc Custom Javascript File -->
-  <script src="js/custom.js"></script>
+  <script src="<%=path %>/main/js/custom.js"></script>
 
-  <script src="contactform/contactform.js"></script>
+  <script src="<%=path %>/main/contactform/contactform.js"></script>
 
 
 </body>
