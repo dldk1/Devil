@@ -79,7 +79,7 @@
     <div class="container">
 
       <div id="logo" class="pull-left">
-        <a href="#hero"><img src="<%=path %>/main/img/logo.png" alt="" title="" /></img></a>
+        <a href="#hero"><img src="<%=path %>/img/logo.png" alt="" title="" /></img></a>
         <!-- Uncomment below if you prefer to use a text image -->
         <!--<h1><a href="#hero">Header 1</a></h1>-->
       </div>
@@ -191,7 +191,7 @@
 
       <div class="row">
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-1.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(main/img/portfolio-1.jpg);" href="">
             <div class="details">
               <h4>치즈베이컨버거</h4>
               <span>두툼한 통가슴살패티와 바삭하고 스모키한 베이컨칩, 부드러운 화이트치즈소스가 어우러진 환상적인 조합의 프리미엄 버거</span>
@@ -200,7 +200,7 @@
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-2.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(main/img/portfolio-2.jpg);" href="">
             <div class="details">
               <h4>치킨커틀렛버거</h4>
               <span>새콤달콤 커틀렛 소스와 아삭한 양배추채, 두툼하고 촉촉한 통 가슴살패티로 색다르게 즐기는 버거</span>
@@ -209,7 +209,7 @@
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-3.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(main/img/portfolio-3.jpg);" href="">
             <div class="details">
               <h4>화이트갈릭버거</h4>
               <span>크림처럼 부드러운 화이트 갈릭 소스에 프리미엄 더블햄과 통가슴살 패티까지 하나에 다 담은 묵직한 버거!</span>
@@ -218,7 +218,7 @@
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-4.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(main/img/portfolio-4.jpg);" href="">
             <div class="details">
               <h4>리코타샐러드</h4>
               <span>촉촉한 리코타와 아삭한 샐러드로 즐기는 신선함</span>
@@ -227,7 +227,7 @@
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-5.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(main/img/portfolio-5.jpg);" href="">
             <div class="details">
               <h4>김떡만</h4>
               <span>바삭한 김말이, 쫄깃한 떡강정과 팝콘만두를 매콤한 소스에 맛있게 버무린 매콤 김떡만 갈릭 소스에 버무려 맵지 않게 즐기는 갈릭 김떡만 사천풍 짜장 소스에 버무려 매콤달콤하게 즐기는 사천짜장 김떡만</span>
@@ -236,7 +236,7 @@
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-6.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(main/img/portfolio-6.jpg);" href="">
             <div class="details">
               <h4>프라이랩(2종)</h4>
               <span>바삭하게 튀긴 또띠아 속에 부드러운 치킨텐더가 쏙! 화끈하게 매콤한 핫칠리에 깔끔하게 매운 할라피뇨까지 입맛대로 즐기는 프라이랩!</span>
@@ -245,7 +245,7 @@
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-7.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(main/img/portfolio-7.jpg);" href="">
             <div class="details">
               <h4>딸기크림빙수</h4>
               <span>부드러운 크림과 딸기의 시원한 만남! 딸빙, 단팥딸빙, 망고딸빙</span>
@@ -254,7 +254,7 @@
         </div>
 
         <div class="col-md-3">
-          <a class="portfolio-item" style="background-image: url(img/portfolio-8.jpg);" href="">
+          <a class="portfolio-item" style="background-image: url(main/img/portfolio-8.jpg);" href="">
             <div class="details">
               <h4>레몬티</h4>
               <span>레몬 한잔으로 비타민 가득 상큼한 하루! 착즙 방식으로 레몬셀이 살아있어 풍부한 레몬의 맛과 향을 즐길 수 있는 레몬티 </span>
@@ -289,7 +289,7 @@
         </div>
         <div class="col-md-9">
           <div class="quote">
-            <b><img src="<%=path %>/main/img/quote_sign_left.png" alt=""></b> 악의 중심! 악의 리더! 악마 자체<small><img src="<%=path %>/main/img/quote_sign_right.png" alt=""></small>
+            <b><img src="<%=path %>/main/img/quote_sign_left.png" alt=""></b> 악의 중심! 악의 리더! 악마 자체<small><img src="<%=path %>/img/quote_sign_right.png" alt=""></small>
           </div>
         </div>
       </div>
@@ -297,7 +297,7 @@
       <div class="row">
         <div class="col-md-9">
           <div class="quote">
-            <b><img src="<%=path %>/main/img/quote_sign_left.png" alt=""></b> 누구든 날 건들면 기선이 핵 주먹 맛을 볼 줄 알아라. 띠드버거 사주면 봐줌. <small><img src="<%=path %>/main/img/quote_sign_right.png" alt=""></small>
+            <b><img src="<%=path %>/main/img/quote_sign_left.png" alt=""></b> 누구든 날 건들면 기선이 핵 주먹 맛을 볼 줄 알아라. 띠드버거 사주면 봐줌. <small><img src="<%=path %>/img/quote_sign_right.png" alt=""></small>
           </div>
         </div>
         <div class="col-md-3">
